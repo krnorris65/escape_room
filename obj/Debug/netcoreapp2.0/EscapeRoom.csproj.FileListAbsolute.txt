@@ -1,0 +1,10 @@
+/Users/knorris/workspace/csharp/group/EscapeRoom/obj/Debug/netcoreapp2.0/EscapeRoom.csproj.CoreCompileInputs.cache
+/Users/knorris/workspace/csharp/group/EscapeRoom/obj/Debug/netcoreapp2.0/EscapeRoom.AssemblyInfoInputs.cache
+/Users/knorris/workspace/csharp/group/EscapeRoom/obj/Debug/netcoreapp2.0/EscapeRoom.AssemblyInfo.cs
+/Users/knorris/workspace/csharp/group/EscapeRoom/bin/Debug/netcoreapp2.0/EscapeRoom.deps.json
+/Users/knorris/workspace/csharp/group/EscapeRoom/bin/Debug/netcoreapp2.0/EscapeRoom.runtimeconfig.json
+/Users/knorris/workspace/csharp/group/EscapeRoom/bin/Debug/netcoreapp2.0/EscapeRoom.runtimeconfig.dev.json
+/Users/knorris/workspace/csharp/group/EscapeRoom/bin/Debug/netcoreapp2.0/EscapeRoom.dll
+/Users/knorris/workspace/csharp/group/EscapeRoom/bin/Debug/netcoreapp2.0/EscapeRoom.pdb
+/Users/knorris/workspace/csharp/group/EscapeRoom/obj/Debug/netcoreapp2.0/EscapeRoom.dll
+/Users/knorris/workspace/csharp/group/EscapeRoom/obj/Debug/netcoreapp2.0/EscapeRoom.pdb
