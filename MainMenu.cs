@@ -13,9 +13,9 @@ namespace EscapeRoom
             Console.WriteLine ("2. Add Student");
             Console.WriteLine ("3. Add Instructor");
             Console.WriteLine ("4. Add Tech");
-            Console.WriteLine ("5. Assign Student to Cohort");
+            Console.WriteLine ("5. Add Student to another Cohort");
             Console.WriteLine ("6. Assign Instructor to Cohort");
-            Console.WriteLine ("7. Assign Tech to Cohort");
+            Console.WriteLine ("7. Change Tech on a Cohort");
             Console.WriteLine ("8. Display Cohort Data");
             Console.WriteLine ("9. Exit");
             Console.Write ("> ");

@@ -32,6 +32,7 @@ namespace EscapeRoom
             
                 Console.WriteLine(s);
             }
+            Console.WriteLine("Press Enter to return to Main Menu");
         }
     }
 }

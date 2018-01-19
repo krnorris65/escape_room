@@ -33,12 +33,16 @@ namespace EscapeRoom
 
         public List<string> GetStudentList(string cohortName){
 
+            _studentList.Clear();
+
             string iFullName;
 
             _db.Query($@"SELECT s.FirstName, s.LastName 
                 FROM Student s
                 LEFT JOIN StudentCohort iC
+                ON s.StudentId = iC.StudentId
                 LEFT JOIN Cohort c
+                ON c.CohortId = iC.CohortId
                 WHERE c.Name = '{cohortName}'",
                 (SqliteDataReader reader) => {
                     while (reader.Read ())

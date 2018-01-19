@@ -80,10 +80,10 @@ namespace EscapeRoom
                             (null, '{SFirstName}', '{SLastName}')
                         ");
 
-                        Console.WriteLine("Add Student to Cohort by adding Cohort Id. If unknown enter 0");
+                        Console.WriteLine("Add Student to Cohort by adding Cohort Id.");
                         Console.Write(">");
                         //run code to display the cohorts in table with id number and cohort name
-                        Dictionary<int, string> cohortList = tech.GetTech();
+                        Dictionary<int, string> cohortList = cohort.GetCohort();
                         foreach(KeyValuePair<int, string> c in cohortList){
                             Console.WriteLine(c.Value + " = " + c.Key);
                         }

@@ -45,9 +45,11 @@ namespace EscapeRoom
         }
         public string GetCohortTech (string cohortName)
         {
+            _cohortTech = "";
             _db.Query($@"SELECT t.Name 
                 FROM Tech t
                 LEFT JOIN Cohort c 
+                ON c.TechId = t.TechId
                 WHERE c.Name = '{cohortName}'
                 ",
                 (SqliteDataReader reader) => {
