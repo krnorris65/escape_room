@@ -304,6 +304,7 @@ namespace EscapeRoom
                 dbcmd.CommandText = command;
 
                 dbcmd.ExecuteNonQuery ();
+            
 
                 this.Query("select last_insert_rowid()",
                     (SqliteDataReader reader) => {

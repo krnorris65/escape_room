@@ -96,7 +96,7 @@ namespace EscapeRoom
                                 INSERT INTO StudentCohort
                                 (StudentCohortId, StudentId, CohortId)
                                 VALUES
-                                (null, '{studentId}', '{CohortAssigned}')
+                                (null, {studentId}, {CohortAssigned})
                             ");
                         }
                         break;
@@ -150,7 +150,7 @@ namespace EscapeRoom
                             INSERT INTO StudentCohort
                             (StudentCohortId, StudentId, CohortId)
                             VALUES
-                            (null, '{sId}', '{cId}')
+                            (null, {sId}, {cId})
                         ");
                         break;
                     case 6:
@@ -171,7 +171,7 @@ namespace EscapeRoom
                             INSERT INTO InstructorCohort
                             (InstructorCohortId, InstructorId, CohortId)
                             VALUES
-                            (null, '{inId}', '{inCId}')
+                            (null, {inId}, {inCId})
                         ");
                         break;
                     case 7:

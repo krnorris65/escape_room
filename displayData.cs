@@ -25,12 +25,12 @@ namespace EscapeRoom
             Console.WriteLine("Server Side Technology: " + techName);
             Console.WriteLine("Instructor(s): " );
             foreach(string i in instructorList){
-                Console.WriteLine(i);
+                Console.WriteLine("    " + i);
             }
-            Console.WriteLine("Students: " );
+            Console.WriteLine("Alumni: " );
             foreach(string s in studentList){
             
-                Console.WriteLine(s);
+                Console.WriteLine("    " + s);
             }
             Console.WriteLine("Press Enter to return to Main Menu");
         }
