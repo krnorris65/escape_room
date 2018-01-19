@@ -12,7 +12,7 @@ namespace EscapeRoom
         public DatabaseInterface()
         {
             // Replace {you} with the correct value
-            _connectionString = $"Data Source=/Users/knorris/workspace/csharp/group/EscapeRoom/escaperoom.db";
+            _connectionString = $"Data Source=/Users/knorris/workspace/csharp/group/EscapeRoom/escaperoomNSS.db";
 
             
             _connection = new SqliteConnection(_connectionString);
